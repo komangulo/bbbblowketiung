@@ -47,6 +47,10 @@
     {
       "source": "/google29817fbf14998789.html",
       "destination": "/google29817fbf14998789.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
