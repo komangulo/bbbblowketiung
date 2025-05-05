@@ -1,59 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
-        { "type": "host", "value": "blowinfluence.vercel.app" }
+        {
+          "type": "host",
+          "value": "(blowinfluence|blowandgrow|blow2keting|blow2grow|blow4grow|blowtogrow|blowketing).vercel.app"
+        }
       ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blowandgrow.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blow2keting.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blow2grow.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blow4grow.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blowtogrow.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "blowketing.vercel.app" }
-      ],
-      "destination": "https://blow4keting.vercel.app/:1",
+      "destination": "https://blow4keting.vercel.app/:path*",
       "permanent": true
     }
   ],
